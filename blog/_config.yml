@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Jimrex 
-subtitle: I/O
+title: Hexo
+subtitle:
 description:
-author: Lei Jin
-language: 
+author: John Doe
+language:
 timezone:
 
 # URL
@@ -76,5 +76,6 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: master
-  type:
+deploy: 
+  type: git
+  branch: master
