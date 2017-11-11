@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans,en,default">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="note," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
+
+
+
+
+
+
+<meta name="description" content="《人人都是产品经理》作者：苏杰 读书笔记，如有侵权，请告知删除。 2017-08-28 13:15:50Web的设计“不要让用户思考”2017-08-28 13:18:33对一个产品，用户总是分为新手、专家和中间用户2017-08-28 13:18:43给新手使用的产品，一大设计准则就是——无需阅读说明书就能上手2017-08-28 13:19:04让用户更加省心。2017-08-28 13:3">
+<meta name="keywords" content="note">
+<meta property="og:type" content="article">
+<meta property="og:title" content="读书笔记：《人人都是产品经理》">
+<meta property="og:url" content="http://www.ijinlei.com/2017/08/30/读书笔记：人人都是产品经理/index.html">
+<meta property="og:site_name" content="Jimrex">
+<meta property="og:description" content="《人人都是产品经理》作者：苏杰 读书笔记，如有侵权，请告知删除。 2017-08-28 13:15:50Web的设计“不要让用户思考”2017-08-28 13:18:33对一个产品，用户总是分为新手、专家和中间用户2017-08-28 13:18:43给新手使用的产品，一大设计准则就是——无需阅读说明书就能上手2017-08-28 13:19:04让用户更加省心。2017-08-28 13:3">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-11-11T01:42:42.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="读书笔记：《人人都是产品经理》">
+<meta name="twitter:description" content="《人人都是产品经理》作者：苏杰 读书笔记，如有侵权，请告知删除。 2017-08-28 13:15:50Web的设计“不要让用户思考”2017-08-28 13:18:33对一个产品，用户总是分为新手、专家和中间用户2017-08-28 13:18:43给新手使用的产品，一大设计准则就是——无需阅读说明书就能上手2017-08-28 13:19:04让用户更加省心。2017-08-28 13:3">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"right","display":"hide","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://www.ijinlei.com/2017/08/30/读书笔记：人人都是产品经理/"/>
+
+
+
+
+
+  <title>读书笔记：《人人都是产品经理》 | Jimrex</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner">
+<div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Jimrex</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-music">
+          <a href="/music/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-music"></i> <br />
+            
+            音乐
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-works">
+          <a href="/works/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            展示
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+<script src="https://cdn.bootcss.com/aplayer/1.6.0/APlayer.min.js"></script>
+<script src="https://api.i-meto.com/music/player.js"></script>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.ijinlei.com/2017/08/30/读书笔记：人人都是产品经理/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Lei Jin">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jimrex">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">读书笔记：《人人都是产品经理》</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-30T16:57:53-07:00">
+                2017-08-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">笔记</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/笔记/产品向/" itemprop="url" rel="index">
+                    <span itemprop="name">产品向</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>浏览
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <script src="/assets/js/APlayer.min.js"> </script><h3 id="《人人都是产品经理》"><a href="#《人人都是产品经理》" class="headerlink" title="《人人都是产品经理》"></a>《人人都是产品经理》</h3><p>作者：苏杰</p>
+<p>读书笔记，如有侵权，请告知删除。</p>
+<p>2017-08-28 13:15:50<br>Web的设计“不要让用户思考”<br>2017-08-28 13:18:33<br>对一个产品，用户总是分为新手、专家和中间用户<br>2017-08-28 13:18:43<br>给新手使用的产品，一大设计准则就是——无需阅读说明书就能上手<br>2017-08-28 13:19:04<br>让用户更加省心。<br>2017-08-28 13:32:13<br>它更多地侧重产品本身“从无到有”、“从有到优”的过程，更多地涉及了“产品规划、数据分析、用户研究、需求分析、功能设计、项目管理、敏捷方法”等内容<br>2017-08-28 13:51:04<br>管理的能力，其实就是“在资源不足的情况下把事情做成”的能力，这里的资源在产品经理的工作中通常表现为以下几种形式。<br>第一，信息不足以决策。时间有限，能力有限，每次决策前不可能掌握所有信息，做决定时总是很头疼，我估计是“拍脑袋”拍得太多的原因。<br>第二，时间不足以安排周密的计划。总是接到3个月、1个月，甚至1个礼拜完成某项目的命令，每次都让我们张大嘴巴说不出话来，应承下来后如何计划？不过一次又一次的实践表明，办法总比困难多。<br>第三，人员不足以支持工作强度和难度。不但时间不足，人员也不足，就算数量足，能力够不够？能力够了，团队士气高不高？哪个公司不加班，又有多少公司有加班工资？但还得完成任务，难不难？难！<br>第四，资金不足以自由调配。俗话说钱要花在刀刃上，买机器要钱，招人要钱，产品推广要钱，而花这些钱的前提是公司还得赚钱，每一分钱都恨不得掰成两半用。<br>2017-08-28 13:55:52<br>从背后看问题的本质，思考怎么设计这个产品才能更好地平衡用户目标与商业目标。<br>2017-08-28 20:22:08<br>1943年，由美国著名犹太裔人本主义心理学家亚伯拉罕·马斯洛（Abraham Maslow）提出了需求层次理论（Need-hierarchy theory），此理论将人的需求划分为五个层次，由低到高，并分别是：生理需求、安全需求、社交需求、尊重需求、自我实现需求。<br>2017-08-28 20:22:26<br>研究需求可以增强对用户的理解<br>2017-08-28 20:35:28<br>。创业阶段的公司是没有太多时间和精力“从用户中来到用户中去”的，一来一去可能公司都关门了，研究清楚了又怎样？因此有时一个问题和需求的诞生，就是靠老板凭经验拍脑袋。这种情况下，我们应该本着实用主义的思路，绝对不能一开始就想着“造反”——“我要见终端用户，我听用户的，不听你的”，而是要尽可能地帮助老板明确问题和需求的价值，为其决定方向提出参考建议，或协助其实现目标（当然，前提是老板要做的事情不违背你的价值观）。<br>2017-08-28 20:36:16<br>以用户为中心的思想”和“以老板为中心的行动”<br>2017-08-28 20:36:24<br>以老板这种广义用户为中心，在小团队里其实反而是一种较优的实践。<br>2017-08-28 20:38:14<br>腾讯的产品已经充分占据了市场，拥有霸主地位，所以用户数不可能再有爆发式增长，于是只能考虑从已有的用户身上深挖用户价值，而最有价值的一批用户无疑是核心用户；而我做的那款产品刚起步，没什么用户，急需把池子做大，所以我们会先做一些大众功能，满足一般用户的需求，让用户数先爆炸起来。<br>2017-08-28 20:38:34<br>优先满足哪些用户需要和产品的商业目标要结合起来考虑<br>2017-08-28 21:08:29<br>用户研究不是附属内容，而是前提<br>2017-08-28 21:16:40<br>需求采集的过程，都会有如下几步：明确目标、选择采集方法、制定采集计划、执行采集、资料整理，然后进入下一步的需求分析阶段。<br>2017-08-28 21:23:56<br>用户访谈经常出现如下问题：<br>第一，“说”和“做”不一致的问题。<br>2017-08-28 21:24:02<br>样本少，以偏概全的问题。<br>2017-08-28 21:24:09<br>用户过于强势，把我们往沟里带。<br>2017-08-28 21:24:37<br>我们过于强势，把用户往沟里带。<br>2017-08-28 21:29:38<br>还有一个小技巧，就是可以把目标群体的特征也定义成一系列问题，放入问卷中，待我们回收问卷以后，就可以通过这些问题评估作答者是否能代表目标群体了。如果发现了偏差，我们也可以从回收的问卷中再筛选出一个接近目标群体的子集来分析。<br>2017-08-29 16:09:38<br>新产品诞生前，这时候外部没有用户，内部没有运营、销售、服务等，所以对于需求而言，更多的是产品人员驱动，去主动采集需求，比较常见的就是直接去潜在的目标用户那里采集<br>2017-08-29 16:10:01<br>产品已经运行了一段时间以后，用户也有了，公司内部也多了很多相关的人员，比如销售和服务。虽然产品部门与用户的直接接触变少，但多了很多间接来源，即与终端用户接触的干系人，他们会向你反馈很多需求，而用户也开始主<br>2017-08-16 20:11:29<br>用户需求：用户自以为的需求，并且经常表达为用户的解决方案。<br>产品需求：经过我们的分析，找到的真实需求，并且表达为产品的解决方案。<br>需求分析：从用户提出的需求出发，找到用户内心真正的渴望，再转化为产品需求的过程。<br>2017-08-16 20:13:59<br>短期利益和长期利益的权衡<br>2017-08-29 20:37:10<br>满足需求的三种方式<br>2017-08-29 20:37:30<br>改变现状<br>2017-08-29 20:37:21<br>降低理想<br>2017-08-29 20:37:38<br>转移需求<br>2017-08-16 20:43:27<br>通常来说“产品功能需求+产品非功能需求=产品需求”，而“产品需求+市场需求+开发需求+测试需求+服务需求+……=产品包需求”<br>2017-08-16 20:43:47<br>层次：把需求分成“基础、扩展（期望需求）、增值（兴奋需求）”三层<br>2017-08-16 20:45:47<br>正因为商业价值如此重要，所以最复杂的时候我们尝试过用重要性、紧急度、持续时间3个指标来衡量<br>2017-08-17 12:28:16<br>产品在创业期的时候，需要全速发展，必然是产品线结构，产品经理带头往前冲。而当公司里有多个产品慢慢成熟之后，就多用职能线来更充分地利用资源，因为在成熟的产品团队中，要做的事情通常比创业时期少，或者说没那么急，那么各种资源就显得有富裕，可以更加稳扎稳打，所以按职能线划分以实现资源共享，同时还可以促进不同产品团队之间的互相学习，让员工的个人能力得到更多的提升。<br>2017-08-17 12:30:50<br>BRD怎么写，都包含哪些内容。<br>2017-08-17 14:01:40<br>会有一个已经“结项”的项目，但不可能有一个已经“完成”的产品（只有不断完善中的产品，除非它被新产品替代）。<br>2017-08-30 15:35:01<br>做产品的过程，会有更多的探索，随着各种内外部信息的变化，产品负责人需要不断地修正自己的判断，给出适宜的创新；而项目在开始时就已经有明确的目标，更注重计划与控制，项目的过程很像是执行一个任务<br>2017-08-17 14:12:08<br>一个内部驱动，一个外部驱动<br>2017-08-17 14:12:29<br>对产品经理来说，最重要的是判断力与创造力，产品经理决定做不做、做什么、做多少，保证方向正确。他是产生一个想法，“我要把它实现！”<br>对项目经理来说，最重要的是执行力与控制力，项目经理决定怎么做、谁来做、何时做，保证方法得当。他是接到一个任务，“我要把它完成！”<br>2017-08-17 14:29:10<br>从抽象到具体的过程主要产出的文档：BRD、MRD、PRD和FSD<br>2017-08-17 14:29:23<br>BRD：Business Requirements Document，商业需求文档。这是产品生命周期中最早的文档，其内容涉及市场分析、销售策略、赢利预测等，通常是给大老板们演示的PPT，比较短小精炼，没有产品细节，有点像创业者给投资人看的商业计划，主要为了获得认可，争取资源。<br>MRD：Market Requirements Document，市场需求文档。获得老板们的支持后，产品进入实施阶段，需要写出MRD，要有更细致的市场与竞争对手分析，包括可通过哪些功能来实现商业目的，功能、非功能需求分哪几块，功能的优先级等。实际工作中，PD在这个阶段常见的产出物有产品的Feature List、业务逻辑图等，这是从商业目标到技术实现的关键转化文档。<br>上述两份文档都是给老板看的，里面偏商业的内容，我会在第5章“别让灵魂跟不上脚步”里做更多描述，接着往下看。<br>PRD：Product Requirements Document，产品需求文档。PRD是对产品功能的进一步细化，是PD新人写得最多的文档，也就是我说的“需求开发”过程。文档主要包含整体说明、用例文档、产品Demo等，会对产品功能做具体描述，更多内容在下一节详细讲述。<br>FSD：Functional Specifications Document，功能详细说明。比较像我们常写的用<br>2017-08-30 16:22:15<br>图3-7 一份实际的PRD模板目录与结构示意图<br>2017-08-17 15:12:27<br>项目管理中的几个关键问题，它们是：文档管理、流程管理、敏捷方法<br>2017-08-30 16:44:11<br>PD常用的文档模板<br>2017-09-01 13:37:02<br>于是，产品、团队、项目进化了以后，再依靠个人英雄主义是不行的，那样英雄会累死，项目也会失败。这时候出现的流程和规范都是一种管理的方法，产品在“快”和“稳”的平衡上，也要稍微向“稳”偏移。<br>2017-09-01 13:37:18<br>设计流程的目标，在于保证“无论谁来做这个产品的设计，都能达到80分”<br>2017-09-01 13:37:46<br>当年的“英雄”把自己的个人经验转变成显性知识表达出来，而对于经常做的事情，就可以用流程这种形式固化、传承，后人在做这些事的时候起码不会太无助。在这点上，规范、模板的作用也类似，这就是团队的核心竞争力<br>2017-09-01 13:39:32<br>从立项之前的产品会议，到Kick Off会议，需求评审（又可分为PRD评审、UC评审、Demo评审），设计评审，代码评审，TC评审，功能评审，以及发布评审。<br>2017-08-17 15:15:20<br>敏捷更是手段<br>2017-08-17 19:24:39<br>有计划，更要“拥抱变化”<br>2017-08-17 19:24:46<br>迭代周期内尽量不加任务。<br>2017-08-17 19:25:23<br>我们可以把每个迭代看做一个小的瀑布模型<br>2017-09-01 14:25:52<br>集中工作，小步快跑。<br>2017-08-17 19:26:31<br>持续细化需求，强调测试<br>2017-08-17 21:02:03<br>不断发布，尽早交付<br>2017-08-17 21:20:15<br>任何情况下，我们都要做好手头的事情，确保“就算这事儿对公司来说又黄了，我也要通过做事有所收获<br>2017-09-01 14:42:01<br>我们做项目通常要在保证品质的前提下，在时间要求T、人财物花费R、项目范围Q三点上做平衡。<br>2017-09-01 14:52:58<br>最后谈谈，老板项目到底好不好？从个人角度，如果是纯项目经理，这就是本职工作，无所谓好坏，而对于我们这些做产品的同学来说，老板项目没有成就感，有成就感的项目是自己去做市场分析、用户研究，然后发现问题，发起项目。另外一件麻烦事就是，有可能你不认同老板的项目目标，我碰到这种情况就用“有良知的职业杀手”的思路：只要不违背自己的价值观，就尽心尽力地完成任务，否则，据理力争，如果争论失败，要么调整自己的价值观，要么放弃这份工作。好处方面，从个人角度看，老板项目接近老板，无须多说。从老板和公司角度看，这样的项目效率高，但决策风险大，其实，这很像民主与专制的区别。<br>2017-08-17 21:39:06<br>空间是指做产品需要考虑的三个大方面：商业、产品、技术<br>2017-09-01 15:39:49<br>上面这段可以送给想找工作的朋友，大家在找工作的时候必须调查清楚自己的职位在公司里是不是最受重视的，是不是强势方，这很重要<br>2017-09-01 15:44:12<br>产品设计的五个层次<br>2017-09-01 16:20:27<br>从几个人到一家公司<br>2017-09-01 16:47:25<br>概念图其实描述的是整个产品的内外关系，形式并不重要，重点要表达出下面两点。<br>▲产品与外界的关系：把产品整体看做一个系统，描述它与上下级系统、并列系统的关系，可能的话，勾勒出产品所处的产业链结构。<br>▲产品内部的关系：产品有多少模块、模块之间的关系如何，不用涉及数据流等细节，重点描述清楚不同的角色在系统里的身份。<br>2017-09-01 17:02:04<br>从个人角度解释一下，比如一位从开发工程师转型为PD的同学，擅长的事情很显然是技术方面的，这时候就看他怎么用自己的“背景”了。在整个团队中，他最大的优势是懂技术，用好了，可以在产品早期的时候思考更全面，能在一开始就判断出哪些事情根本就不靠谱，从而避免浪费资源，并且在进入实施阶段后会与工程师沟通得更顺畅；最大的劣势也是懂技术，用不好，就会让技术压倒商业，在业务逻辑还没确定的时候就考虑过细的实现难度问题，导致方向走偏，进度受限。所以说，PD之前做什么不重要，我们必须是一个通才而不是专才。<br>2017-08-17 22:23:13<br>潜在用户=访客数×转化率<br>我们可以一方面通过增加页面的营销内容提高转化率，另一方面也可以通过SEO、公关、推广等方式增加访客数<br>2017-08-17 22:31:43<br>用户都是凭着自己的感觉去使用产品，他们通常不会去看帮助、不会去看说明书，甚至不会看页面上一句话的提示，如果一个功能需要配合100个字的说明，那我们就要考虑这个功能是不是做得有问题了。<br>2017-09-01 17:22:41<br>产品做出来之后，不能直接向用户介绍功能，而是有一个把“功能转化为卖点”的过程，先要告诉用户产品“有什么用”，用户才有兴趣了解“怎么用”，之后要关注产品的市场反应，推动产品改进。所以，运营的工作非常重要<br>2017-08-17 22:35:09<br>一次好的运营就是事前“预谋”，事中按计划执行，事后拿到结果并为下一次运营积累经验。<br>2017-08-17 22:43:21<br>销售有两大模式：直销VS分销。分销要通过渠道，渠道又分代理和经销。他们的区别是“代理”赚佣金，没有产品所有权和库存风险；“经销”赚差价，产品所有权发生转移，比如批发商。<br>2017-09-01 17:32:48<br>我觉得产品的版本细分有两类<br>2017-09-01 17:33:03<br>一种是做功能区分，打细分市场，这个同学们都比较熟悉，比如笔记本的高中低端产品、手机的各种型号，不用多说。<br>另一种是为了促进销售，利用消费者心理，纯策略性地做出“炮灰版”，完全是和你玩虚的，常有手法如下。<br>2017-09-01 17:38:11<br>《美第奇效应》<br>2017-09-02 11:58:11<br>市场营销大师科特勒的《水平营销》是很好的一本书。这本书给我最励志的心得：纵向营销是Evolution（进化，特点是渐变），水平营销是Revolution（革命，特点是突变）<br>2017-08-17 22:45:48<br>营销也不一定要一个劲地让产品在红海中搏杀，而是可以通过这些点子帮助产品在愈加同质和超竞争的市场中找到自己的蓝海。<br>2017-09-03 15:40:41<br>对于产品部门来说，一定是先确定目标用户再设计产品。而对市场销售等商业部门来说，现实中往往是先拿到产品，再去考虑去主打哪些市场与用户，他们并不管产品部门原先定义的目标用户是怎样的，而是去寻找最容易的突破口。所以，产品与市场两边的配合很重要，需要互相调整来彼此适应，这样的轮回并不是一个闭环，而是螺旋上升。有的时候一个产品已经做出来了，原先设想的目标用户并不买单，我们也别急着去找哪些功能设计错了，怎么改产品，而不妨先换个角度想，产品与市场不匹配，除了改产品，也可以改市场嘛，有可能这个产品对另一部分市场和用户正合适，真的是“歪打正着”。<br>2017-09-03 15:44:57<br>一类是技术痴迷者，常见于工作不久的新人，或者少数工作很久且一直醉心于技术的牛人。<br>2017-09-03 15:45:03<br>他们会为了技术而搞出一些用户并不需要的功能，即所谓的“镀金需求”。这就需要PD与他们充分沟通，让他们具有成本意识，不要盲目创新，这类同学都很理性，比较好交流。<br>2017-09-03 15:45:51<br>另一类是实用主义者，常见于工作过一段时间的老人，或者只是把技术当做工具的工程师。<br>2017-09-03 15:46:19<br>如何与工程师合作<br>2017-08-17 22:50:47<br>准确、全面、简洁，即时更新、保持最新<br>2017-08-17 22:51:42<br>让业务人员冷静下来，让技术人员兴奋起来<br>2017-08-17 23:02:32<br>如何让团队更开心<br>2017-08-17 23:06:45<br>阿里巴巴的价值观：<br>▲客户第一：关注客户的关注点，为客户提供建议和资讯，帮助客户成长。<br>▲团队合作：共享共担，以小我完成大我。<br>▲拥抱变化：突破自我，迎接变化。<br>▲诚信：诚实正直，信守承诺。<br>2017-08-17 23:06:57<br>▲激情：永不言弃，乐观向上。<br>▲敬业：以专业的态度和平常的心态做非凡的事情。<br>2017-09-03 16:26:38<br>如果在卖的过程中发现愿意付钱的一大半都不是原先定义的“目标用户”，那么来的都是客，我们就去研究他们，做他们需要的。<br>2017-09-03 16:29:34<br>而可行性分析的思路可以简化成下面三步：<br>第一，我们在哪儿；第二，我们去哪儿；第三，我们怎么去。<br>2017-09-03 16:32:40<br>谈谈整个行业如何——市场扫描；竞争对手如何——竞品分析；自己情况如何——自我分析这三个话题。<br>2017-09-03 16:32:59<br>一个常用方法叫做PEST分析，分别分析政治法律环境（Political Factors）、经济人口环境（Economic Factors）、社会文化环境（Social Factors）、技术环境（Technological Factors）四个方面的机会和威胁，在这个层面上，根本不用去考虑具体的某个公司或产品，<br>2017-09-03 16:36:16<br>APPEALS分析法<br>2017-09-03 17:58:51<br>要想让会议不流于形式，就要把会议本身变成形式。<br>2017-09-03 17:59:24<br>所有人提供意见，少数人讨论，一个人拍板”<br>2017-09-03 18:00:39<br>第一部分：<br>1．上次会议讨论的重点问题是什么？<br>2．关于这些问题我们达成了哪些一致意见？<br>3．上次会议中哪些问题由于缺乏信息考证，具有不确定性因素等原因而未能解决？<br>4．上次会议哪些执行计划通过了？对于这些执行计划我们有哪些主要设想？<br>上面4条都是回顾上次会议中的信息，把大家带入状态，这些细化的问题可以让我们在做演示准备时不会漏掉任何重要的内容。<br>2017-09-03 18:00:51<br>第二部分：<br>5．自上次讨论会议后外部发生了哪些主要变化？<br>6．自上次讨论会议后采取了哪些重要行动？以及这些执行对战略和财政产生的影响？<br>7．上次会议后我们搜集了一些参考信息，根据这些信息考虑是否要对当初设想的执行计划做些调整。<br>继续回顾，但是重点变成了上次会议结束到本次会议开始这段时间内的问题。<br>第三部分：<br>8．我们今天讨论的重点是什么？<br>9．你们提议的执行计划是什么？最初的设想和决定的理由？<br>10．我们怎样实践这些设想和确定减少潜在的不确定因素。<br>11．今天要讨论和做出的决定是什么？<br>面对这么多回顾的信息，今天要做的事情则是重中之重，每个问题都需要很多的工作来支撑。<br>第四部分：<br>12．从上一轮的战略回顾中我们学到什么？怎样在下一轮中学到更多？<br>13．怎样改进战略回顾会议和会议进行方式？<br>持续改善，考虑如何将“战略回顾”这件事情做得更好。<br>因为上述会议的目的是“战略回顾”，所以列出的提纲也是紧密围绕这个话题的，但我们看了之后可以自行展开，这个思路对于其他目的的会议，相信也有启发。<br>2017-09-03 18:04:40<br>但追求短期目标一定不好吗？显然不一定，有的创业公司，如果不“短视”的话，可能活不过下个月；某个部门，如果不是不择手段地完成KPI数字的话，也许产品就被砍掉了；一个农村学生，如果高考成绩不好，也许一辈子都出不了山沟……但权衡多个目标的秤一定要永存心中，不断去想这些问题：我们是为了KPI的数字运营还是为了让更多的用户用上产品解决问题？我们是简单地迎合用户还是做他们真正需要的<br>2017-09-04 15:11:45<br>我可能还是想改变世界的，认同“你存在于世的价值就是世界有你和没你的区别”。但随着个人的成长，我越来越意识到一个人的能力极其有限，能改变的东西很少，所以我换了一个思路：改变世界不一定要亲手去做，我可以“尽可能地去了解世界，然后告诉更多的人”，于是人群的整体素质高了，大家可以一起去更多地改变世界。<br>2017-09-04 15:29:49<br>理想是“想做的事”，现实是“要做的事”和“能做的事”，理想和现实总是有差距的，这也是我们一生最大的问题。只有理想没有现实是空想，只有现实没有理想是傻做，所以，我们其实一直在把理想和现实从两边往中间凑，努力改变环境、锻炼自己能做“想做的事”，也努力说服自己想做“要做的事”和“能做的事”。<br>2017-09-04 15:36:43<br>寻找理想，就是把“要做的事”、“能做的事”都整合成“想做的事”。我们不断努力扩大“想做、要做、能做”三者的重合部分，这就是你的理想，也是你的核心竞争力，别人学不来的。<br>2017-09-04 15:38:27<br>“就业保障会降低一个人的竞争力，职业保障可以提高竞争力，假设有一天，公司突然不需要你了，这时候你不用去找工作，而是有一堆公司马上排着队请你去，这才是真正的保障。”<br>2017-09-04 16:16:16<br>文档、流程、工具软件、组织结构等都是支撑，背后的核心还是产品，要满足哪个市场、哪些人，要做什么、怎么做，想清楚了，支撑的东西自然而然会浮出水面<br>2017-09-04 16:26:46<br>我喜欢一个比喻：世界对每个人来说本是一片黑暗，你对世界认识的发展，就好比在一片黑暗的空间中，去不同的地方点亮一盏盏知识的小灯，然后看到一些情况并且猜测着还看不清的情况。当亮的灯越来越多，就可以不断修正对这个世界的认识。每个人都会经历这种“认识中的世界越来越复杂”的过程，期间可说快乐，也可说痛苦。<br>但少数人会突破一个拐点，开始“发现世界越来越简单”，我粗浅地认为，突破拐点的一种表现就是有一些关键的灯被点亮了，渐渐发现黑暗中的世界原本是一个整体，有着根本的道理，很多事情底层的规则都是相同的，从而我们会觉得做起事来反而越来越轻松。一旦到了这个阶段，我们就会忍不住地去拼命点亮更多的小灯，试图看到这个世界的全貌，这其实是很痛苦的，因为你发现了方向与终点，但同时也知道必然走不到那里，也知道任何人都走不到那里，也许，真正强悍的人会把这个过程视为一种快乐。<br>随着世界渐渐被点亮，我就可以更合理地勾画自己的知识地图。这张地图的重要性在于，我们都有很多知识，但也经常不知道在当前场景下应用哪一条知识！所以你知道多少知识并不重要，重要的是在各种应用场景下，能提取出多少。而提取知识的能力，可以通过这张知识的地图来提升。我们的大脑好比一个图书馆，每个人都在不停地往里面加书，可是，很多人都是把书买来以后就随手放在一个书架上，等到想找的时候，无从下手，而这种挫败感会严重阻碍知识的继续增长。知识地图就可以帮助你尽可能地梳理已有的知识，以便要用的时候可以轻松索引，对一个公司是这样，对个人也是这样，越是优良的架构越是能支撑庞大的系统。<br>然后，我们在明确了自己在哪里、想去哪里、已经知道哪些路的情况下，再考虑怎么去的问题。经历了这个过程，你就会在知识地图上慢慢的连出一条线，自觉自愿地在这条路上远征。<br>2017-09-04 16:32:14<br>其实产品经理（PD）很大程度上就是销售（Sales），而且比Sales还要难，Sales卖的是已经有的东西，而PD卖的是自己的想法；Sales只要把产品卖给客户，而PD要把想法卖给老板、同事、客户等。<br>2017-09-04 16:33:50<br>我觉得我们沟通的根本目的不是为了传输信息，而是把传输信息当作手段，路人甲乙丙等通过沟通的过程修正自己对这个世界的认识，使之尽量接近真实世界。简单说就是：<br>沟通不是为了说服，而是为了更好地认识世界。<br>2017-09-04 16:34:09<br>说服是为了输出你对这个世界的认识，把传输信息当做目的。但任何人的认识，基于我的理论，都是扭曲的，所以都应该持怀疑态度，只是程度不同而已。所以，不要一开始就试图与反对自己的观点对立，这样是没逻辑的，没人能保证自己的观点更好。举个例子，大家可能都有体会，自己也会反对自己过去的观点，那么有可能对方就是将来的自己。因为信息不对称，知识结构不同，所以观点不同很正常，关键是要充分表达，在表达的过程中，双方或多方会整合出更优的解决方案。也许你确实是对的，最终的方案很接近你提出的方案，但心态不同了，这个过程对大家的收益绝对超过你很强势地推销方案。<br>2017-09-04 16:35:18<br>所以，有效的沟通最终是“合”，而不是谁战胜谁，每次沟通都是一个大家互相帮助，共同提高对世界的认识的好机会。<br>2017-09-04 16:41:32<br>我们的目的是尽快找出对方感兴趣的、熟悉的、擅长的、自己也懂一点的话题，从而成功破冰，尽快进入需求采集阶段。所以，要在去之前做一些功课，了解对方的行业、公司、老板。当用户开始很兴奋地跟你说很多你想听的东西，并且说这个那个你们还嫩着呢的时候，你的目的就达到了，这个时候一定要不停地表示认同，同时挤出一脸憨厚的傻笑，间或貌似突然想到般地问几个蓄谋已久的问题，套出更多信息。<br>2017-09-04 16:42:00<br>任何人，只要能够发现问题并描述清楚，转化为一个需求，进而转化为一个任务，争取到支持，发动起一批人，将这个任务完成，并持续不断以主人翁的心态去维护，跟踪这个产物，那么，这个人就是产品经理。<br>2017-09-04 16:47:46<br>每当有人骂春晚的时候，产品经理的思路应该像对待一个提需求的用户：骂的人是不是典型用户？他的观点能代表多少人？他的影响力多大？他是不是只是“嗓门大”的用户？他说的是不是解决方案？他的本质需求是什么？把他的需求加入需求列表应该标什么级别？什么属性？<br>2017-08-28 14:01:18<br>产品经理的思维总是具有很强的怀疑性和批判性。比如接到一个任务，你不会马上考虑怎么做，而是首先想弄清楚：“为什么要做？能不能不做？为什么要我做？为什么现在就要做？”很不让老板省心，是吧？通常这类问题，我们大多数在心里问问自己就好了，实在没想通的，也请问得委婉一点。<br>2017-09-04 16:56:59<br>解决问题的通用思路<br>2017-09-04 16:57:16<br>为了什么？做什么事，解决什么人的什么问题？何时做？谁来做？效果如何？<br>2017-09-04 17:03:28<br>生活中任何事情都这样想会不会太理性，反而没意思了？我认同，所以对待重要的问题，我们可以用上面的思路，但是大多数情况下，还是感性一些、轻松一些。<br>2017-09-04 17:05:15<br>只要你能够发现问题并描述清楚，转化为一个需求，进而转化为一个任务，争取到支持，发动起一批人，将这个任务完成，并持续不断以主人翁的心态去跟踪、维护这个产物，那么，你就是产品经理。至少，你已经是自己的产品经理，这才是“人人都是产品经理”的真谛。<br>多看笔记 来自多看阅读 for iOS</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>☕️听说你想请我喝咖啡？</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span> 打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="Lei Jin Alipay"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/note/" rel="tag"># note</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/06/25/从杭州东到北京南/" rel="next" title="从杭州东到北京南">
+                <i class="fa fa-chevron-left"></i> 从杭州东到北京南
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/09/05/Talks-GAN-by-Ian-Goodfellow/" rel="prev" title="Talks:GAN by Ian Goodfellow ">
+                Talks:GAN by Ian Goodfellow  <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="uyan_frame"></div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="Lei Jin" />
+          <p class="site-author-name" itemprop="name">Lei Jin</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">19</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="mailto:ijimrex@gmail.com" target="_blank" title="E-Mail">
+                  
+                    <i class="fa fa-fw fa-envelope"></i>
+                  
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/ijimrex" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.facebook.com/rex.jim.39" target="_blank" title="FB Page">
+                  
+                    <i class="fa fa-fw fa-facebook"></i>
+                  
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://music.163.com/#/artist?id=1087304" target="_blank" title="Wangyi">
+                  
+                    <i class="fa fa-fw fa-music"></i>
+                  
+                    
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#《人人都是产品经理》"><span class="nav-number">1.</span> <span class="nav-text">《人人都是产品经理》</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2014 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Lei Jin</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>访问人数
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+    
+
+    
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2148680"></script>
+      <!-- UY END -->
+    
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+  
+
+  
+
+</body>
+</html>
