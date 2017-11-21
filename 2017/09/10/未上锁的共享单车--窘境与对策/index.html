@@ -102,7 +102,7 @@
 <meta property="og:site_name" content="Jimrex">
 <meta property="og:description" content="曾有新闻爆出某共享单车用户忘记锁车，导致4位数以上高额赔款；在日常使用过程中，忘记锁车带来的麻烦也屡见不鲜。 场景分析什么情况下会忘记锁车就离开了：  受后置因素影响，着急去做别的事，比如赶地铁、公交。 受当时环境因素影响，比如天气太冷太热；或停车时正在专心做别的事， 比如正在打电话，专注思考某件事。 个人本身因素：心智、健康状况，容易出现差错的情况不止在锁车的时候。 故意不锁，无道德、责任意识">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-21T04:23:10.000Z">
+<meta property="og:updated_time" content="2017-11-21T04:56:13.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="未上锁的共享单车--窘境与对策">
 <meta name="twitter:description" content="曾有新闻爆出某共享单车用户忘记锁车，导致4位数以上高额赔款；在日常使用过程中，忘记锁车带来的麻烦也屡见不鲜。 场景分析什么情况下会忘记锁车就离开了：  受后置因素影响，着急去做别的事，比如赶地铁、公交。 受当时环境因素影响，比如天气太冷太热；或停车时正在专心做别的事， 比如正在打电话，专注思考某件事。 个人本身因素：心智、健康状况，容易出现差错的情况不止在锁车的时候。 故意不锁，无道德、责任意识">
@@ -401,7 +401,8 @@
 <h3 id="方案分析"><a href="#方案分析" class="headerlink" title="方案分析"></a>方案分析</h3><ul>
 <li>发现这样的问题，首先不应该急着去想解决方案，第一步应该搜集数据，进行分析，判断是否值得花资源解决这样的问题。搜集的数据可以有（在一段时间内的）：</li>
 </ul>
-<p>日均骑行人次：$ Rides<em>{average} = \frac{Rides}{Days}$<br>日均上报未锁次数：$ Reports</em>{average}=\frac{Reports}{Days}$<br>未锁率：$P<em>{forget}= \frac{ Rides</em>{average}}{Reports_{average}}$<br>未锁维护成本：$C$<br>日活用户: $ DAU $<br>分别调查正常用户和未锁用户对产品的净推荐值：$ NPS $<br>……<br><strong>计算未锁车带来的影响是否需要引起对产品的重新设计。</strong></p>
+<p>日均骑行人次：$ Rides _{average} = \frac{Rides}{Days}$<br>日均上报未锁次数：$ Reports_{average}=\frac{Reports}{Days}$<br>未锁率：$P<em>{forget}= \frac{ Rides\</em>{average}}{Reports_{average}}$<br>未锁维护成本：$C$<br>日活用户: $ DAU $<br>分别调查正常用户和未锁用户对产品的净推荐值：$ NPS $<br>……<br><strong>计算未锁车带来的影响是否需要引起对产品的重新设计。</strong></p>
+<p>$$\lim _{ x\rightarrow \infty  }{ \sum _{ k=1 }^{ x }{ \frac { \sin { k } +\cos { k }  }{ k }  }  } $$</p>
 <ul>
 <li>假如需要重新设计</li>
 </ul>
@@ -451,8 +452,7 @@
 <li>保险，通过精算，推出类似“碎屏险”的“忘锁险”。</li>
 <li>……</li>
 </ol>
-<p>###（流程图之后补上）###</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>共享单车忘锁车是一个不罕见的现象，这既是麻烦，也是机遇。我们首先需要对数据进行分析，判断是否真的需要改进产品。在需要改进产品的情况下，基于尽量不大改硬件设施的前提，在软件层面上进行提升。主要的目标是：避免用户犯错、培养用户习惯为主，惩罚为次；补救的核心思想：从共享出发，回归共享——社区式的运营。并在用户的失误中给新用户的增加提供机会。</p>
+<h3 id="（流程图之后补上）"><a href="#（流程图之后补上）" class="headerlink" title="（流程图之后补上）"></a>（流程图之后补上）</h3><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>共享单车忘锁车是一个不罕见的现象，这既是麻烦，也是机遇。我们首先需要对数据进行分析，判断是否真的需要改进产品。在需要改进产品的情况下，基于尽量不大改硬件设施的前提，在软件层面上进行提升。主要的目标是：避免用户犯错、培养用户习惯为主，惩罚为次；补救的核心思想：从共享出发，回归共享——社区式的运营。并在用户的失误中给新用户的增加提供机会。</p>
 <hr>
 <p>最后就共享经济提出一些想法，不宽容的讲，现在很多打着“共享旗号”的产业本质只是租赁，像”滴滴”、”UBER”、”Lyft”、”Airbnb”这类才能算严格意义上的共享，本质差异是：该公司是否是该用户所使用的工具的拥有者。<br>观点同意这篇文章。<br><a href="https://36kr.com/p/5078063.html" target="_blank" rel="external">《租赁这头猪，不要趴在共享经济的风口上》</a></p>
 
@@ -697,7 +697,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#场景分析"><span class="nav-number">1.</span> <span class="nav-text">场景分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#现有APP的做法"><span class="nav-number">2.</span> <span class="nav-text">现有APP的做法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#这样会带来的问题："><span class="nav-number">2.1.</span> <span class="nav-text">这样会带来的问题：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#方案分析"><span class="nav-number">3.</span> <span class="nav-text">方案分析</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number"></span> <span class="nav-text">总结</span></a></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#场景分析"><span class="nav-number">1.</span> <span class="nav-text">场景分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#现有APP的做法"><span class="nav-number">2.</span> <span class="nav-text">现有APP的做法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#这样会带来的问题："><span class="nav-number">2.1.</span> <span class="nav-text">这样会带来的问题：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#方案分析"><span class="nav-number">3.</span> <span class="nav-text">方案分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（流程图之后补上）"><span class="nav-number">4.</span> <span class="nav-text">（流程图之后补上）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number"></span> <span class="nav-text">总结</span></a></div>
             
 
           </div>
