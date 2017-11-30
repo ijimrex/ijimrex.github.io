@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Machine learning," />
 
 
 
@@ -94,14 +94,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="About">
-<meta property="og:url" content="http://www.ijinlei.com/about/index.html">
+<meta name="description" content="Nearest Neighbor Classifier让临近的几个样本数据的类别作为当前目标数据的类别。 学习类型： Lazy learning,没有显示训练过程;  Supervised learning  设定 Input: $ \boldsymbol x \in R^D $ Output: $ \boldsymbol y\in [C] $  Learning: $\boldsymbol y">
+<meta name="keywords" content="Machine learning">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Nearest Neighbor Classifier">
+<meta property="og:url" content="http://www.ijinlei.com/2017/09/15/Nearest-Neighbor-Classifier/index.html">
 <meta property="og:site_name" content="Jimrex">
+<meta property="og:description" content="Nearest Neighbor Classifier让临近的几个样本数据的类别作为当前目标数据的类别。 学习类型： Lazy learning,没有显示训练过程;  Supervised learning  设定 Input: $ \boldsymbol x \in R^D $ Output: $ \boldsymbol y\in [C] $  Learning: $\boldsymbol y">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-09T10:21:05.000Z">
+<meta property="og:updated_time" content="2017-11-30T08:55:11.205Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="About">
+<meta name="twitter:title" content="Nearest Neighbor Classifier">
+<meta name="twitter:description" content="Nearest Neighbor Classifier让临近的几个样本数据的类别作为当前目标数据的类别。 学习类型： Lazy learning,没有显示训练过程;  Supervised learning  设定 Input: $ \boldsymbol x \in R^D $ Output: $ \boldsymbol y\in [C] $  Learning: $\boldsymbol y">
 
 
 
@@ -130,13 +134,13 @@
 
 
 
-  <link rel="canonical" href="http://www.ijinlei.com/about/"/>
+  <link rel="canonical" href="http://www.ijinlei.com/2017/09/15/Nearest-Neighbor-Classifier/"/>
 
 
 
 
 
-  <title>About | Jimrex</title>
+  <title>Nearest Neighbor Classifier | Jimrex</title>
   
 
 
@@ -270,34 +274,219 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.ijinlei.com/2017/09/15/Nearest-Neighbor-Classifier/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Lei Jin">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jimrex">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">About</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <script src="/assets/js/APlayer.min.js"> </script><center><embed src="./resume.pdf" width="850" height="1100"></center>
-
+          <h1 class="post-title" itemprop="name headline">Nearest Neighbor Classifier</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-15T21:26:13-07:00">
+                2017-09-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Machine-Learning/" itemprop="url" rel="index">
+                    <span itemprop="name">Machine Learning</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>浏览
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <script src="/assets/js/APlayer.min.js"> </script><p>Nearest Neighbor Classifier<br>让临近的几个样本数据的类别作为当前目标数据的类别。</p>
+<h3 id="学习类型："><a href="#学习类型：" class="headerlink" title="学习类型："></a>学习类型：</h3><ul>
+<li>Lazy learning,没有显示训练过程; </li>
+<li>Supervised learning</li>
+</ul>
+<h3 id="设定"><a href="#设定" class="headerlink" title="设定"></a>设定</h3><ul>
+<li>Input: $ \boldsymbol x \in R^D $</li>
+<li>Output: $ \boldsymbol y\in [C] $ </li>
+<li>Learning: $\boldsymbol y=f(x)$</li>
+<li>Training data: $D^{train}={ (x_1,y_1),(x_2,y_2)\dots (x_N,y_N) } $</li>
+<li>Test Data: $D^{test}={ (x_1,y_1),(x_2,y_2)\dots (x_m,,y_m) } $</li>
+<li>$D^{train}\cap D^{test}=\phi$</li>
+</ul>
+<h3 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h3><ul>
+<li>$nn(x)=arg min<em>{n\in[N]}distant(\boldsymbol x,\boldsymbol x</em>{n})$</li>
+<li>$knn(x)=\{ nn_1(x),nn_2(x),\dots,nn_k(x) \}$     不包含前一个点的最近点</li>
+<li>$ v_c=\sum_{n\in knn(x)}I(y_n==c), \forall c\in C $   计算每个分类在k个训练数据中有多少个</li>
+<li>$y=argmax_{c\in C} v_c$        标出数量最多的那一类</li>
+<li>计算距离可以用欧拉距离等。</li>
+</ul>
+<h3 id="调参"><a href="#调参" class="headerlink" title="调参"></a>调参</h3><p>K是要调整的参数<br>用development dataset选出最好的K值<br>没有development dataset，则用cross validaition的方法（把train set 分成N份，每次取其中一份作为development set，每个k训练出来之后，在那一份上求accuracy，对N次的情况取平均值，比较不同K值的在cross validate上的mean accuracy, 取最大）</p>
+
       
     </div>
     
     
     
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>☕️听说你想请我喝咖啡？</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span> 打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="Lei Jin Alipay"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Machine-learning/" rel="tag"># Machine learning</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/09/05/Talks-GAN-by-Ian-Goodfellow/" rel="next" title="Talks:GAN by Ian Goodfellow ">
+                <i class="fa fa-chevron-left"></i> Talks:GAN by Ian Goodfellow 
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/09/20/未上锁的共享单车--窘境与对策/" rel="prev" title="未上锁的共享单车--窘境与对策">
+                未上锁的共享单车--窘境与对策 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -332,8 +521,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -433,6 +631,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#学习类型："><span class="nav-number">1.</span> <span class="nav-text">学习类型：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设定"><span class="nav-number">2.</span> <span class="nav-text">设定</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#过程"><span class="nav-number">3.</span> <span class="nav-text">过程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#调参"><span class="nav-number">4.</span> <span class="nav-text">调参</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -566,10 +780,10 @@
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
